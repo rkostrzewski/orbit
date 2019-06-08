@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "width": "calc(100vw - 40px)",
+    "height": "2.4em",
+    "left": "20px",
+    "right": "20px",
+    "top": "5px",
+    "gridTemplateColumns": "6em 6em 1fr 1fr 1fr 6em 6em",
+    "gridTemplateAreas": "'workspace cpu . spotify . battery time'",
+    "blur": "4px"
+  },
+  "font": {
+    "fontSize": "12px",
+    "fontFamily": "'Fira Code iScript', Menlo, Monaco, 'Courier New', monospace"
+  },
+  "opacity": 0.8,
+  "colors": {
+    "background": "#1C1E26",
+    "foreground": "#BBBBBB",
+    "widgets": {
+      "workspace": {
+        "foreground": "#FFFFFF",
+        "background": "#E95678"
+      },
+      "cpu": {
+        "foreground": "#FFFFFF",
+        "background": "#FAB795"
+      },
+      "battery": {
+        "foreground": "#FFFFFF",
+        "background": "#E95378"
+      },
+      "time": {
+        "foreground": "#FFFFFF",
+        "background": "#27D797"
+      }
+    }
+  },
+  "styles": {
+    "bar": {
+      "borderRadius": "5px",
+      "boxShadow": "0px 4px 10px 4px rgba(0,0,0,0.15)"
+    }
+  }
+}

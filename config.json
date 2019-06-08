@@ -1,0 +1,25 @@
+{
+  "bar": {
+    "enabled": true
+  },
+  "workspace": {
+    "enabled": true,
+    "refreshFrequency": 2000
+  },
+  "time": {
+    "enabled": true,
+    "refreshFrequency": 60000
+  },
+  "cpu": {
+    "enabled": true,
+    "refreshFrequency": 2000
+  },
+  "spotify": {
+    "enabled": false,
+    "refreshFrequency": 10000
+  },
+  "battery": {
+    "enabled": true,
+    "refreshFrequency": 30000
+  }
+}
